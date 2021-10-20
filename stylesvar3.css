@@ -1,0 +1,148 @@
+body{
+	position: relative;
+
+background: #707070;
+}
+h1{
+	position: absolute;
+width: 900px;
+height: 200px;
+left: 250px;
+top: 0px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 150px;
+line-height: 200px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 20px -20px 0px #000000;
+z-index: 2;
+}
+.container{
+	position: absolute;
+width: 850px;
+height: 1000px;
+left: 276px;
+top: 255px;
+
+background: #FFDD55;
+opacity: 0.9;
+border-radius: 30px;
+}
+.container2{
+	position: absolute;
+width: 850px;
+height: 70px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+border-radius: 20px 20px 20px 20px;
+}
+h2{
+	position: absolute;
+
+left: 85px;
+top: 5px;
+
+font-family: Caveat;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #A259FF;
+
+}
+#menu6 {
+	width: 700px;
+	
+	border: 0px solid black;
+	background: black;
+	margin: 0px auto;
+}
+#menu6 ul {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	align-items: center;
+	
+	padding: 0px; 
+	margin: 0px;
+}
+#menu6 li {
+	list-style-type: none;
+	text-align: center;
+}
+#menu6 a {
+
+	padding: 10px;
+	color: white;
+	display: block;
+	text-decoration: none;
+	border: 1px solid black;
+}
+#menu6 a:hover {
+	background-color: white;
+	color: #2696E8;
+}
+.ai{
+	position: absolute;
+width: 250px;
+height: 475px;
+left: 500px;
+top: 100px;
+
+/* Colors / Green */
+
+background: #FFDD55;
+border-radius: 10px;
+}
+p{
+	position: absolute;
+width: 109px;
+height: 40px;
+left: 32px;
+top: 120px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+}
+.ad{
+	position: absolute;
+width: 188px;
+height: 40px;
+left: 32px;
+top: 150px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 40px
+}
+button{
+	display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 34px;
+
+position: absolute;
+width: 169px;
+height: 50px;
+left: 32px;
+top: 371px;
+
+background: #000000;
+box-shadow: 4px 4px 0px #EB7711;
+border-radius: 10px;
+}
